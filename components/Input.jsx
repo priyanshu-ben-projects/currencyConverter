@@ -11,7 +11,6 @@ function InputBox({
   return (
     <>
       <div className="relative rounded-2xl flex flex-col justify-between font-[Poppins] bg-[#F9FAFB] border border-gray-200 w-full p-4 sm:p-5 shadow-sm hover:shadow-md transition-shadow">
-        {/* Top Row: Label & Currency Selector */}
         <div className="flex items-center justify-between w-full mb-3">
           <h3 className="text-sm font-semibold text-gray-600">{label}</h3>
 
@@ -20,7 +19,7 @@ function InputBox({
               htmlFor={`currency-select-${label}`}
               className="text-xs text-gray-400"
             >
-              Select Currency
+              Select Currency Wow!
             </label>
             <select
               id={`currency-select-${label}`}
@@ -36,7 +35,6 @@ function InputBox({
           </div>
         </div>
 
-        {/* Input Field */}
         <div className="w-full">
           <input
             type="number"
